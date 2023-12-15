@@ -58,7 +58,7 @@ class RequestDemo extends Component
 // dd($data);
         if($data){
      Mail::send('content-email', $data, function ($mess) {
-        $mess->to('sandhiya@saasforest.com')
+        $mess->to('hrms@gurushrconsultancy.com')
         ->subject('Demo Request');
           }); 
         }

@@ -36,7 +36,7 @@
 
                     <img src="/assets/icons/facebook.svg" alt="facebook" class="w-8"></a>
 
-                <a href="#">
+                <a href="https://twitter.com/ssolidarites">
                     <img src="/assets/icons/twitter.svg" alt="twitter" class="w-8"></a>
                 <a href=" https://www.linkedin.com/company/77119271/admin/feed/posts/">
                     <img src="/assets/icons/linked-in.svg" alt="linked-in" class="w-8"></a>
