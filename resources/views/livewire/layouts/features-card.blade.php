@@ -1,5 +1,5 @@
 <div>
-    <div class="rounded-lg  bg-[#F9F5E4] p-5 lg:h-[230px]">
+    <div class="rounded-lg  bg-[#F9F5E4] p-5 lg:h-[230px] hover:-translate-y-2 hover:transform hover:ease-in-out duration-300"">
         <!--inner div -->
         <div class="flex gap-x-3 items-center">
             <img src="/assets/icons/tick1.svg" alt=""
@@ -9,9 +9,9 @@
         <div>
             <p class="mt-4 text-[16px] font-normal">{{$description}}</p>
         </div>
-        <div class=" pt-10">
-            <a href="" class="flex gap-x-2 items-center">
-                <span>Read More</span>
+        <div class="pt-10 w-[16%] hover:border-b-2 border-[#FFDE17]    hover:duration-100  whitespace-normal ">
+            <a href="/features#{{$link}}" class="flex gap-x-2 items-center   " >
+                <span class="">Read More</span>
                 <img src="/assets/icons/right-arrow.svg" alt="" class="w-4 h-4">
             </a>
         </div>

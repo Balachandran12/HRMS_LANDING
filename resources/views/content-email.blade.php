@@ -12,16 +12,18 @@
 
     span{
             display: block;
-            padding: 2px;
+            
         }
+
+        
     </style>
 
     <div>
         <span>Name: {{$name}}</span>
         <span>company: {{$company_name}}</span>
         <span>Email: {{$email}}</span>
-        <span>PhnoneNumber: {{$phone_number}}</span>
-        <span>Date: {{$date}}</span>
+        <span>PhoneNumber: {{$phone_number}}</span>
+          <span>Date: {{$date}}</span>
         <span>Message: {{$send_message}}</span>
 
     </div>

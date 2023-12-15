@@ -1,4 +1,6 @@
 <div>
+
+
         <!-- Contact us start-->
         <div id="demo" class=" bg-[#231F20]">
             <div class="container mx-auto py-20 lg:p-20">
@@ -40,7 +42,7 @@
 
                                 <label class="">
                                     <span for="full_name" class="text-white">
-                                        CompanyName
+                                        Company Name
                                     </span>
                                     <sup class=" text-red-700">*</sup>
                                 </label>

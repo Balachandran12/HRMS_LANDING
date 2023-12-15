@@ -15,7 +15,8 @@ export default {
         extend: {
             fontFamily: {
                 // sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-                'custom': ['Poppins', 'sans-serif']
+                'custom': ['Poppins', 'sans-serif'],
+                'Benguiat':['ITC Benguiat Std','cursive']
             },
         },
     },

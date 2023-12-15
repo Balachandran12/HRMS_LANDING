@@ -3,6 +3,7 @@
 namespace App\Livewire\Home;
 
 use App\Models\UserDetail;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Attributes\Rule;
 use Livewire\Attributes\Validate;
@@ -33,11 +34,11 @@ class RequestDemo extends Component
 
 
     public function createUser(){
-// dd('hiii');
+// dd($this->date);
     $this->validate(); 
 // dd($this->name);
         
-        $data= UserDetail::create([
+        $data1= UserDetail::create([
              'name'=>$this->name,
              'company_name'=>$this->company,
              'email'=>$this->companyEmail,
@@ -52,10 +53,11 @@ class RequestDemo extends Component
 
     
 
-      $data=$data->toArray();
-
+      $data=$data1->toArray();
+      $data['date']=Carbon::create($data['date'])->toDateString();
+// dd($data);
         if($data){
-     Mail::send('content-email', $data, function ($mess) use ($data) {
+     Mail::send('content-email', $data, function ($mess) {
         $mess->to('sandhiya@saasforest.com')
         ->subject('Demo Request');
           }); 

@@ -6,4 +6,9 @@
     display: none;
 }
 
+@font-face {
+    font-family: 'ITC Benguiat Std';
+    src: url('./font/BenguiatStd-Bold.otf');
+}
+
 

@@ -2,7 +2,8 @@
     <div class=" container mx-auto px-5 ">
         <header class="flex justify-between items-center pt-5 ">
             <div>
-                <img src="/assets/icons/logo1.svg" alt="" class=" w-40 h-24">
+                <a href="/home"> <img src="/assets/icons/logo1.svg" alt="" class=" w-40 h-24"></a>
+               
             </div>
             <div class="relative lg:hidden " @click.outside="isOpen = false" x-data="{
                 isOpen: false,
@@ -52,18 +53,20 @@
             </div>
             <!-- list -->
             <ul class="lg:flex justify-between gap-x-8 items-center hidden ">
-                <li class="hover:-translate-y-1 hover:transform hover:ease-in-out duration-300 "><a href="#home" class=" text-lg font-medium hover:border-b-2 border-[#FFDE17]  hover:-translate-y-4  hover:duration-100">Home</a></li>
-                <li class="hover:-translate-y-1 hover:transform hover:ease-in-out duration-300 "><a href="#features" class=" text-lg font-medium hover:border-b-2 border-[#FFDE17]  hover:-translate-y-4  hover:duration-100">Features</a></li>
-                <li class="hover:-translate-y-1 hover:transform hover:ease-in-out duration-300 " ><a href="#pricing" class=" text-lg font-medium hover:border-b-2 border-[#FFDE17]  hover:-translate-y-4  hover:duration-100">Pricing</a></li>
-                <li class="hover:-translate-y-1 hover:transform hover:ease-in-out duration-300 "><a href="#testimonials" class=" text-lg font-medium hover:border-b-2 border-[#FFDE17]  hover:-translate-y-4  hover:duration-100">Testimonials</a></li>
-                <li class="hover:-translate-y-1 hover:transform hover:ease-in-out duration-300 "><a href="#faq" class=" text-lg font-medium hover:border-b-2 border-[#FFDE17]  hover:-translate-y-4  hover:duration-100">FAQ</a></li>
+                <li class="hover:-translate-y-1 hover:transform hover:ease-in-out duration-300 "><a href="/home" class=" text-lg font-medium hover:border-b-2 border-[#FFDE17]  hover:-translate-y-4  hover:duration-100">Home</a></li>
+                <li class="hover:-translate-y-1 hover:transform hover:ease-in-out duration-300 "><a href="/home#features" class=" text-lg font-medium hover:border-b-2 border-[#FFDE17]  hover:-translate-y-4  hover:duration-100">Features</a></li>
+                <li class="hover:-translate-y-1 hover:transform hover:ease-in-out duration-300 " ><a href="/home#pricing" class=" text-lg font-medium hover:border-b-2 border-[#FFDE17]  hover:-translate-y-4  hover:duration-100">Pricing</a></li>
+                <li class="hover:-translate-y-1 hover:transform hover:ease-in-out duration-300 "><a href="/home#testimonials" class=" text-lg font-medium hover:border-b-2 border-[#FFDE17]  hover:-translate-y-4  hover:duration-100">Testimonials</a></li>
+                <li class="hover:-translate-y-1 hover:transform hover:ease-in-out duration-300 "><a href="/home#faq" class=" text-lg font-medium hover:border-b-2 border-[#FFDE17]  hover:-translate-y-4  hover:duration-100">FAQ</a></li>
             </ul>
             {{-- <div class="hidden lg:block ">
                 <button class="bg-[#FFDE17] px-10  font-semibold py-3 rounded-lg"><a href="#demo">Request a
                         Demo</a></button>
             </div> --}}
             <div class="hidden lg:block hover:-translate-y-1 hover:transform hover:ease-in-out duration-300   ">
-                <x-button size='xl' class="text-[#212121]">Request a Demo</x-button>
+                <a href="/home#demo">
+                    <x-button size='xl' class="text-[#212121]">Request a Demo</x-button></a>
+               
             </div>
 
         </header>
@@ -83,5 +86,7 @@
             appearance: none;
             margin: 0;
         }
+
+      
     </style>
 </div>

@@ -6,6 +6,8 @@ use Livewire\Component;
 
 class Header extends Component
 {
+
+    public $link;
     public $slot;
     public function render()
     {

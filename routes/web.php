@@ -22,9 +22,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/header', Home::class);
+Route::get('/home', Home::class);
 
-Route::get('/home', FeaturseHome::class);
+Route::get('/features', FeaturseHome::class);
 
 
 // Route::get('/card', FeaturseCard::class);

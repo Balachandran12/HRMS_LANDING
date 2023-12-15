@@ -1,4 +1,24 @@
 <div>
+
+    <style>
+#features{
+    scroll-margin-top: 60px;
+}
+#pricing{
+    scroll-margin-top: 320px;
+}
+#testimonials{
+    scroll-margin-top: 70px;
+}
+   #demo{
+    scroll-margin-top: 50px;
+   }
+
+   #faq{
+    scroll-margin-top: 80px;
+}
+    </style>
+
     <header>
         <livewire:layouts.header />
     </header>
@@ -7,35 +27,34 @@
     <livewire:home.banner />
 
     {{-- features  --}}
-    <div class="py-8 container mx-auto md:px-10 lg:px-5 lg:py-10">
-        <div id="features" class=" text-center">
+    <div class="py-8 feature container mx-auto md:px-10 lg:px-5 px-5 lg:py-10  " id="features" >
+        <div  class=" text-center">
             <h1 class="font-title font-bold text-[32px] py-8 banner">Features</h1>
         </div>
-        <div class="lg:grid grid-cols-2 gap-x-6 gap-y-3 lg:space-y-0 space-y-6 px-5">
-            <livewire:layouts.features-card title="Employee Management"
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-6 ">
+            <livewire:layouts.features-card title="Employee Management" link="employee"
                 description="Centrally manage all employee data, from contact information to job roles. The feature provides an organized, searchable database of all your employees." />
-            {{-- <livewire:layouts.features-card title="Company Management"
-                description="Oversee all aspects of your company's structure, including departments, teams, and locations. Gain a clear, holistic view of your organization at a glance." /> --}}
+            
             <livewire:layouts.features-card title="Time Off Management"
-                description="Easily track and manage employee leave requests, approvals, and balances. Automate your time-off processes and ensure fairness and transparency." />
+                description="Easily track and manage employee leave requests, approvals, and balances. Automate your time-off processes and ensure fairness and transparency." link="Timeoff" />
             <livewire:layouts.features-card title="Performance Management"
-                description="Facilitate regular feedback and performance reviews. Set goals, track progress, and foster a culture of continuous improvement and recognition." />
+                description="Facilitate regular feedback and performance reviews. Set goals, track progress, and foster a culture of continuous improvement and recognition." link="Performance"/>
             <livewire:layouts.features-card title="Reporting/HR Analytics"
-                description="Simplify contract creation, storage, and tracking. Ensure all employment agreements are accurate, up-to-date, and easily accessible." />
+                description="Simplify contract creation, storage, and tracking. Ensure all employment agreements are accurate, up-to-date, and easily accessible." link="Reporting/HR Analytics"/>
             <livewire:layouts.features-card title="Onboarding & Offboarding"
-                description="Make data-driven decisions with insightful reports and analytics. Understand your workforce trends, measure HR impact, and forecast future needs effectively." />
+                description="Make data-driven decisions with insightful reports and analytics. Understand your workforce trends, measure HR impact, and forecast future needs effectively." link="Onboarding & Offboarding"/>
             <livewire:layouts.features-card title="Learning Management System"
-                description="Effortlessly track and manage employee hours for each task, ensuring accurate and streamlined time reporting." />
+                description="Effortlessly track and manage employee hours for each task, ensuring accurate and streamlined time reporting." link="Learning"/>
             <livewire:layouts.features-card title="Timesheet Management"
-                description="Simplify payroll management with accurate and compliant processing, ensuring timely and correct employee payments." />
+                description="Simplify payroll management with accurate and compliant processing, ensuring timely and correct employee payments." link="Timesheet" />
             <livewire:layouts.features-card title="Payroll Management"
-                description="Simplify payroll management with accurate and compliant processing, ensuring timely and correct employee payments." />
+                description="Simplify payroll management with accurate and compliant processing, ensuring timely and correct employee payments." link="Payroll" />
 
         </div>
         <div class=" mt-5 flex justify-center">
-            <div class=" lg:w-[550px] md:w-[650px] sm:px-5 px-5 md:px-0 xl:w-[650px]">
+            <div class="">
                 <livewire:layouts.features-card title="Recruitment Management"
-                description="Optimize your hiring process with our robust recruitment module, making it easier to attract, assess, and onboard top talent." />
+                description="Optimize your hiring process with our robust recruitment module, making it easier to attract, assess, and onboard top talent." link="Recruitment" />
             </div>
         </div>
 
@@ -49,12 +68,12 @@
     <livewire:home.benefits />
 
     {{-- pricing  --}}
-    <div class=" container mx-auto px-5">
-        <livewire:home.pricing />
+    <div class=" container mx-auto px-5 " id="price">
+        <livewire:home.pricing  />
     </div>
 
     {{-- Testimonials  --}}
-    <div class=" container mx-auto px-5">
+    <div class=" container mx-auto px-5" id="Testimonials">
         <div id="testimonials" class="text-center md:pt-10">
             <h1 class="font-bold font-title text-[32px] banner pt-8">Testimonials</h1>
         </div>
@@ -77,7 +96,7 @@
 
     {{-- faq  --}}
     <div>
-        <livewire:home.faq />
+        <livewire:home.faq id="FQA" />
     </div>
 
     {{-- footer  --}}

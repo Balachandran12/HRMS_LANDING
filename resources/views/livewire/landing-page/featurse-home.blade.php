@@ -1,8 +1,15 @@
 <div>
+
+    <style>
+
+        *{
+            scroll-padding-top: 80px;
+        }
+    </style>
     {{-- header --}}
     <livewire:layouts.header />
 
-    <div class="container mx-auto px-5 mt-48">
+    <div class="container mx-auto px-5 mt-48" >
 
         {{-- section one  start --}}
         <div>
@@ -32,7 +39,7 @@
 
 
     {{-- section four start --}}
-    <div class="bg-[#F9F5E4] py-20 mt-16">
+    <div class="bg-[#F9F5E4] py-20 mt-16" id="Timeoff">
         <div class=" container mx-auto px-5">
             <div>
                 <livewire:landing-card.featurse-content title="Time Off Management"
@@ -58,7 +65,7 @@
 
     {{-- section 5 start --}}
     
-        <div class="container mx-auto px-5 mt-16">
+        <div class="container mx-auto px-5 mt-16" id="Performance">
             <div class="">
                 <livewire:landing-card.featurse-content title="Performance Management"
                     para="Tracks and evaluates employee performance, identifying strengths and weaknesses for individual and organizational improvement." image="/assets/images/performance.png" />
@@ -84,7 +91,7 @@
     {{-- section 6 end --}}
 
     {{-- section 7 start --}}
-    <div class="bg-[#F9F5E4] py-20 mt-16">
+    <div class="bg-[#F9F5E4] py-20 mt-16" id="Reporting/HR Analytics">
         <div class="container mx-auto px-5">
             <div class="">
                 <livewire:landing-card.featurse-content title="Reporting/HR Analytics"
@@ -104,7 +111,7 @@
     {{-- section 8 start --}}
 
 
-    <div class="container mx-auto px-5 mt-16">
+    <div class="container mx-auto px-5 mt-16" id="Onboarding & Offboarding">
         <div class="">
             <livewire:landing-card.featurse-content title="Onboarding & Offboarding"
                 para="Onboarding streamlines new employee integration with task lists, role-specific information, and progress tracking whereas offboarding manages exiting employee processes with customizable task lists and status updates specific to their roles." image="/assets/images/onboarding.png" />
@@ -122,7 +129,7 @@
 
 {{-- section 9 start --}}
 
-<div class="bg-[#F9F5E4] py-20 mt-16">
+<div class="bg-[#F9F5E4] py-20 mt-16" id="Learning">
 
     <div class="container mx-auto px-5">
 
@@ -146,7 +153,7 @@
 {{-- section 9 end --}}
 
 {{-- section 10 start --}}
-<div class="container mx-auto px-5 mt-16">
+<div class="container mx-auto px-5 mt-16" id="Timesheet">
     <div class="">
         <livewire:landing-card.featurse-content title="Timesheet Management"
             para="Streamlines project management and time tracking, allowing creation and assignment of projects in one place." image="/assets/images/timesheet.png" />
@@ -164,7 +171,7 @@
 
 {{-- section 11 start --}}
 
-<div class="bg-[#F9F5E4] py-20 mt-16">
+<div class="bg-[#F9F5E4] py-20 mt-16" id="Payroll">
     <div class="container mx-auto px-5">
         <div class="">
             <livewire:landing-card.featurse-content title="Payroll Management"
@@ -192,7 +199,7 @@
 {{-- section 11 end --}}
 
 {{-- section 12 start --}}
-<div class="container mx-auto px-5 mt-16">
+<div class="container mx-auto px-5 mt-16" id="">
     <div class="">
         <livewire:landing-card.featurse-content title="Recruitment Management"
             para="Simplified application process with regular updates." image="/assets/images/recruitment.png" />
@@ -203,7 +210,7 @@
         <livewire:landing-card.featurse-cards title="Candidates"
             description="Easy management of candidate details, communication, and document uploads." />
             <livewire:landing-card.featurse-cards title="Reports"
-            description="Overview of hiring status, offers, and candidate reports for specific positions" />
+            description="Overview of hiring status, offers, and candidate reports for specific positions" link="Recruitment" />
 
     </div>
 
