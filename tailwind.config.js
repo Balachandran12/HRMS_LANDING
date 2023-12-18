@@ -11,12 +11,13 @@ export default {
         './resources/views/**/*.blade.php',
     ],
 
-    theme: {
+    theme: { 
         extend: {
             fontFamily: {
                 // sans: ['Figtree', ...defaultTheme.fontFamily.sans],
                 'custom': ['Poppins', 'sans-serif'],
-                'Benguiat':['ITC Benguiat Std','cursive']
+                // 'Benguiat':['ITC Benguiat Std','cursive']
+                benguiat: ['ITC Benguiat Std', 'serif'],
             },
         },
     },

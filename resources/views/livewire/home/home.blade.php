@@ -13,9 +13,21 @@
    #demo{
     scroll-margin-top: 50px;
    }
-
    #faq{
     scroll-margin-top: 80px;
+}
+#pricing{
+    scroll-margin-top: 150px;
+}
+#why-choose{
+    scroll-margin-top: 100px;
+}
+#experience{
+
+    scroll-margin-top: 110px;
+}
+#contact-us{
+    scroll-margin-top: 130px;
 }
     </style>
 
@@ -29,7 +41,7 @@
     {{-- features  --}}
     <div class="py-8 feature container mx-auto md:px-10 lg:px-5 px-5 lg:py-10  " id="features" >
         <div  class=" text-center">
-            <h1 class="font-title font-bold text-[32px] py-8 banner">Features</h1>
+            <h1 class="font-benguiat font-bold text-[32px] py-8 banner">Features</h1>
         </div>
         <div class="grid lg:grid-cols-2 grid-cols-1 gap-6 ">
             <livewire:layouts.features-card title="Employee Management" link="employee"
@@ -40,9 +52,9 @@
             <livewire:layouts.features-card title="Performance Management"
                 description="Facilitate regular feedback and performance reviews. Set goals, track progress, and foster a culture of continuous improvement and recognition." link="Performance"/>
             <livewire:layouts.features-card title="Reporting/HR Analytics"
-                description="Simplify contract creation, storage, and tracking. Ensure all employment agreements are accurate, up-to-date, and easily accessible." link="Reporting/HR Analytics"/>
+                description="Simplify contract creation, storage, and tracking. Ensure all employment agreements are accurate, up-to-date, and easily accessible." link="Reporting"/>
             <livewire:layouts.features-card title="Onboarding & Offboarding"
-                description="Make data-driven decisions with insightful reports and analytics. Understand your workforce trends, measure HR impact, and forecast future needs effectively." link="Onboarding & Offboarding"/>
+                description="Make data-driven decisions with insightful reports and analytics. Understand your workforce trends, measure HR impact, and forecast future needs effectively." link="Onboarding"/>
             <livewire:layouts.features-card title="Learning Management System"
                 description="Effortlessly track and manage employee hours for each task, ensuring accurate and streamlined time reporting." link="Learning"/>
             <livewire:layouts.features-card title="Timesheet Management"
@@ -52,7 +64,7 @@
 
         </div>
         <div class=" mt-5 flex justify-center">
-            <div class="">
+            <div class=" lg:w-[550px] md:w-[650px] sm:px-5 md:px-0 xl:w-[650px]">
                 <livewire:layouts.features-card title="Recruitment Management"
                 description="Optimize your hiring process with our robust recruitment module, making it easier to attract, assess, and onboard top talent." link="Recruitment" />
             </div>
@@ -65,17 +77,20 @@
     </div>
 
     {{-- benefits  --}}
-    <livewire:home.benefits />
+    <div id="why-choose">
+        <livewire:home.benefits />
+    </div>
+    
 
     {{-- pricing  --}}
-    <div class=" container mx-auto px-5 " id="price">
+    <div class=" container mx-auto px-5 " id="pricing">
         <livewire:home.pricing  />
     </div>
 
     {{-- Testimonials  --}}
     <div class=" container mx-auto px-5" id="Testimonials">
         <div id="testimonials" class="text-center md:pt-10">
-            <h1 class="font-bold font-title text-[32px] banner pt-8">Testimonials</h1>
+            <h1 class="font-bold font-benguiat text-[32px] banner pt-8">Testimonials</h1>
         </div>
         <div class="mt-10 grid md:grid-cols-2 grid-cols-1 gap-x-16 gap-y-8 md:gap-y-3 md:py-10 pb-12">
             <livewire:layouts.testimonials-card

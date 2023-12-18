@@ -10,6 +10,6 @@
     ][$size ?? 'md']
 @endphp
 
-<button {{ $disabled ? 'disabled' : '' }} {{ $attributes->merge(['class' => "inline-flex items-center justify-center $size border  rounded-xl  disabled:opacity-50 disabled:pointer-events-none transition "]) }}>
+<button {{ $disabled ? 'disabled' : '' }} {{ $attributes->merge(['class' => "inline-flex items-center justify-center $size rounded-xl  disabled:opacity-50 disabled:pointer-events-none transition "]) }}>
     {{$slot}}
 </button>

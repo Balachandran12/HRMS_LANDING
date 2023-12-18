@@ -1,5 +1,5 @@
-<div class=" mt-10 md:mt-24">
-    <h1 class="font-bold  text-center font-title text-[32px] banner">Pricing</h1>
+<div class=" mt-10 md:mt-24" id="price">
+    <h1 class="font-bold  text-center font-benguiat text-[32px] banner">Pricing</h1>
     <p class="mt-10 font-normal text-center"> We believe in providing a comprehensive solution without hidden
         costs, that's why our pricing is simple and transparent. Our platform is available at a one-time
         purchase cost, providing you lifelong access to our innovative HR and payroll management solution. </p>

@@ -2,7 +2,7 @@
     <!-- footer faq section open  -->
     <div class=" pb-20">
       <div id="faq" class=" w-full">
-          <h1 class="text-center py-14 text-[32px] font-title font-bold banner">FAQ</h1>
+          <h1 class="text-center py-14 text-[32px] font-benguiat font-bold banner">FAQ</h1>
       </div>
       <div class=" lg:flex lg:justify-center lg:px-16">
           <div class="rounded-2xl border-2 bg-[#F9F5E4] py-10 lg:px-8 w-full">

@@ -1,11 +1,11 @@
 <div>
     <main>
         <!-- background color black section start  -->
-        <div class="bg-[#231F20] mt-10">
+        <div class="bg-[#231F20] mt-10" id="why-choose">
             <div class="container px-5 mx-auto">
                 <!-- Why Choose Us section start  -->
                 <div class="py-10">
-                    <h1 id="why-choose" class="text-[#FFDE17] font-bold text-center font-title text-[32px] banner">Why Choose Us?</h1>
+                    <h1 id="why-choose" class="text-[#FFDE17] font-bold text-center font-benguiat text-[32px] banner">Why Choose Us?</h1>
                     <!-- Grid section start  -->
                     <div class="md:grid grid-cols-3 gap-10">
                         <livewire:layouts.benefits-card title="Streamline HR Operations" para="Simplify and automate daily HR tasks to increase productivity and reduce manual errors." img="/assets/icons/search.svg" />

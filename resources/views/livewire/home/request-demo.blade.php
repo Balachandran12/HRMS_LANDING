@@ -1,10 +1,8 @@
 <div>
-
-
         <!-- Contact us start-->
         <div id="demo" class=" bg-[#231F20]">
             <div class="container mx-auto py-20 lg:p-20">
-                <h1 id="experience" class="font-title p-5  text-center text-2xl font-bold text-yellow-400">Experience Our Product
+                <h1 id="experience" class="font-benguiat p-5  text-center text-2xl font-bold text-yellow-400">Experience Our Product
                     First-Hand</h1>
                 <p class="mb-5 text-center p-5 text-lg text-white">Request a personalized demo tailored to your unique
                     requirements. Fill in the form below, and our team will get in touch with you shortly to schedule

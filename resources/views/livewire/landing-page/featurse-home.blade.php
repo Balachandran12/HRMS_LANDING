@@ -1,9 +1,32 @@
 <div>
 
     <style>
+#Timeoff{
+    scroll-margin-top: 85px;   
+}
+#Reporting{
+    scroll-margin-top: 85px;   
+}
+#Learning{
+    scroll-margin-top: 85px;   
+}
+#Payroll{
+    scroll-margin-top: 85px;  
+}
+  
+     
+        #Recruitment{
+            scroll-margin-top: 160px;   
+        }
+        #Timesheet{
+            scroll-margin-top: 160px;   
+        }
+        #Onboarding{
+            scroll-margin-top: 160px;   
+        }
 
-        *{
-            scroll-padding-top: 80px;
+        #Performance {
+            scroll-margin-top: 160px;   
         }
     </style>
     {{-- header --}}
@@ -91,7 +114,7 @@
     {{-- section 6 end --}}
 
     {{-- section 7 start --}}
-    <div class="bg-[#F9F5E4] py-20 mt-16" id="Reporting/HR Analytics">
+    <div class="bg-[#F9F5E4] py-20 mt-16" id="Reporting">
         <div class="container mx-auto px-5">
             <div class="">
                 <livewire:landing-card.featurse-content title="Reporting/HR Analytics"
@@ -111,7 +134,7 @@
     {{-- section 8 start --}}
 
 
-    <div class="container mx-auto px-5 mt-16" id="Onboarding & Offboarding">
+    <div class="container mx-auto px-5 mt-16" id="Onboarding">
         <div class="">
             <livewire:landing-card.featurse-content title="Onboarding & Offboarding"
                 para="Onboarding streamlines new employee integration with task lists, role-specific information, and progress tracking whereas offboarding manages exiting employee processes with customizable task lists and status updates specific to their roles." image="/assets/images/onboarding.png" />
@@ -199,10 +222,10 @@
 {{-- section 11 end --}}
 
 {{-- section 12 start --}}
-<div class="container mx-auto px-5 mt-16" id="">
+<div class="container mx-auto px-5 mt-16" id="Recruitment">
     <div class="">
         <livewire:landing-card.featurse-content title="Recruitment Management"
-            para="Simplified application process with regular updates." image="/assets/images/recruitment.png" />
+            para="Simplified application process with regular updates." image="/assets/images/timeoff.png" />
     </div>
     <div class="grid md:grid-cols-3 grid-cols-1 gap-y-4 gap-x-12 mt-10 pb-12">
         <livewire:landing-card.featurse-cards title="Job Openings"
