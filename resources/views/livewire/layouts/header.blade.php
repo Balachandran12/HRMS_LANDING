@@ -2,7 +2,7 @@
     <div class=" container mx-auto px-5 ">
         <header class="flex justify-between items-center pt-5 ">
             <div>
-                <a href="/home"> <img src="/assets/icons/logo1.svg" alt="" class=" w-40 h-24"></a>
+                <a href="/"> <img src="/assets/icons/logo1.svg" alt="" class=" w-40 h-24"></a>
                
             </div>
             <div class="relative lg:hidden " @click.outside="isOpen = false" x-data="{
