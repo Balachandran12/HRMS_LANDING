@@ -12,7 +12,7 @@
                         <a href="#demo" class="bg-[#231F20] px-10 text-white font-semibold py-3 rounded-lg">Request
                             a Demo</a>
                     </div> --}}
-                    <a href="/home#demo">
+                    <a href="/#demo">
                         <x-button size="lg">Request a Demo</x-button>
                     </a>
                 </div>

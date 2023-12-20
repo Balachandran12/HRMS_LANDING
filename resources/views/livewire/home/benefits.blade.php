@@ -25,13 +25,16 @@
                         <button class="bg-[#FFDE17] px-8 py-3 text-sm font-semibold rounded-lg"><a href="#demo">Request
                                 a Demo</a> </button>
                     </div> --}}
+                    <a href="/#demo">
                     <div class=" hidden lg:flex justify-center mt-24">
                         <x-button class="" size="xl"  >Request a Demo</x-button>
                     </div>
-
+                </a>
+                <a href="/#demo">
                     <div class=" lg:hidden md:flex justify-center mt-24">
                         <x-button class="w-full" size="xl"  >Request a Demo</x-button>
                     </div>
+                </a>
 
                     <!-- Button section end  -->
                 </div>

@@ -22,7 +22,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', Home::class);
+Route::get('/', Home::class);
 
 Route::get('/features', FeaturseHome::class);
 
