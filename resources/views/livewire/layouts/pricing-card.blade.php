@@ -1,19 +1,27 @@
-<div>
+<div id="pricing">
     <!-- Pricing section start  -->
-    <div id="pricing">
-        <div class="bg-[#F9F5E4] rounded-[20px] pb-10 mt-10 sm:w-[300px]  lg:w-[300px] md:w-[400px]">
-            <div  style="background-image: url('{{$img}}')" class="bg-contain bg-no-repeat lg:h-[200px] h-[200px] w-full pt-5">
+    
+        <div class="bg-[#F9F5E4] rounded-[20px] pb-10 mt-10 sm:w-[300px] lg:h-[450px] lg:w-[300px] md:w-[400px] h-full">
+            <div  style="background-image: url('{{$img}}')" class="bg-contain bg-no-repeat lg:h-[170px] h-[170px] w-full pt-5">
                 <h6 class="font-bold text-center">{{ $plans }}</h6>
-                <h1 class="font-bold text-4xl text-center mt-3">$199</h1>
+                <h1 class="font-bold text-4xl text-center mt-3 px-6">{{$price}}<span class=" text-base font-normal">/month</span></h1>
+                
             </div>
             <div class="mx-5">
-                <h6 class="font-normal text-sm text-center">Includes: Employee Management, Company Management,
-                    Time Off Management</h6>
-                <h6 class="font-normal text-sm text-center mt-12">Ideal for small to mid-sized businesses
-                    looking to streamline their HR operations.</h6>
+                <h6 class="text-center text-lg h-12">{{$content}}</h6>
+               
+                <div class=" pt-28">
+                <h6 class="font-bold text-center mt-3">{{$employee}}</h6>
+                 <h1 class="font-bold text-center"> Employees</h1>
+                </div>
+               
+
             </div>
         </div>
-    </div>
+
+
+      
+
     <!-- Pricing section end  -->
 
 

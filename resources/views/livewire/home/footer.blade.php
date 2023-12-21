@@ -32,15 +32,15 @@
                 channels:</p>
             <div class="flex gap-4">
 
-                <a href="https://www.facebook.com/gurushrconsultant;?_rdc=1&_rdr">
+                <a href="https://www.facebook.com/gurushrconsultant;?_rdc=1&_rdr" target="_blank">
 
                     <img src="/assets/icons/facebook.svg" alt="facebook" class="w-8"></a>
 
-                <a href="https://twitter.com/ssolidarites">
+                <a href="https://twitter.com/ssolidarites" target="_blank">
                     <img src="/assets/icons/twitter.svg" alt="twitter" class="w-8"></a>
-                <a href=" https://www.linkedin.com/company/77119271/admin/feed/posts/">
+                <a href=" https://www.linkedin.com/company/77119271/admin/feed/posts/" target="_blank">
                     <img src="/assets/icons/linked-in.svg" alt="linked-in" class="w-8"></a>
-                <a href="https://www.instagram.com/ssolidarites/ ">
+                <a href="https://www.instagram.com/ssolidarites/ " target="_blank">
                     <img src="/assets/icons/instagram.svg" alt="instagram" class="w-8"></a>
             </div>
         </div>

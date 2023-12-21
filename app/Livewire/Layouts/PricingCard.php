@@ -8,6 +8,10 @@ class PricingCard extends Component
 {
     public $plans;
     public $img;
+    public $price;
+    public $content;
+    public $employee;
+    public $para;
 
     public function render()
     {

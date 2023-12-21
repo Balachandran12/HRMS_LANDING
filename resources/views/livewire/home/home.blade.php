@@ -85,6 +85,7 @@
     {{-- pricing  --}}
     <div class=" container mx-auto px-5 " id="pricing">
         <livewire:home.pricing  />
+        <h1 class="mt-10 text-center text-lg font-medium">All packages come at a one-time setup fee of US$300</h1>
     </div>
 
     {{-- Testimonials  --}}
