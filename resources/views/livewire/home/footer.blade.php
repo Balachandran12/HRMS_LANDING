@@ -7,14 +7,15 @@
                 <p class=" text-sm mt-7 font-medium">We're here to help! If you have any questions or need assistance,
                     don't hesitate to reach out.</p>
                 <div class="font-normal text-xs space-y-8">
-                    <div class="flex items-center gap-3 ">
+                    <a href="mailto:info@gurushrconsultancy.com" target="_blank" class="flex items-center gap-3 w-fit">
                         <img src="/assets/icons/mail.svg" alt="">
                         <span class="underline cursor-pointer text-sm"> info@gurushrconsultancy.com</span>
-                    </div>
-                    <div class="flex items-center gap-3 ">
+                    </a>
+
+                    <a href="tel:+231886540460" target="_blank" class="flex items-center gap-3 w-fit">
                         <img src="/assets/icons/mobile.svg" alt="">
                         <span class="cursor-pointer text-sm">+231886540460 | +231775251571</span>
-                    </div>
+                    </a>
                     <div class="flex items-center gap-3 ">
                         <img src="/assets/icons/location.svg" alt="">
                         <span class="cursor-pointer text-sm">Monrovia, Liberia</span>
@@ -47,10 +48,10 @@
         <div class="text-white pt-10 lg:pt-0">
             <h2 class="text-[#FFDE17] lg:w-32 text-lg font-bold">Quick Links</h2>
             <ul class="mt-4 space-y-8 text-sm">
-                <li class=" cursor-pointer"><a href="#home">Home</a></li>
-                <li class=" cursor-pointer"><a href="#features">Features</a></li>
-                <li class=" cursor-pointer"><a href="#pricing">Pricing</a></li>
-                <li class=" cursor-pointer"><a href="#faq">FAQ</a></li>
+                <li class=" cursor-pointer"><a href="/#home">Home</a></li>
+                <li class=" cursor-pointer"><a href="/#features">Features</a></li>
+                <li class=" cursor-pointer"><a href="/#pricing">Pricing</a></li>
+                <li class=" cursor-pointer"><a href="/#faq">FAQ</a></li>
             </ul>
         </div>
     </div> <!-- footer section end -->
