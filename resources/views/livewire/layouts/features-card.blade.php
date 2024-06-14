@@ -10,8 +10,8 @@
             <p class="mt-4 text-[16px] font-normal">{{$description}}</p>
         </div>
 
-        <div class="pt-10  hover:duration-100  whitespace-normal  ">
-            <a href="/features#{{$link}}" class="flex gap-x-2  items-center lg:w-[110px] w-full hover:border-b-2 border-[#FFDE17]" >
+        <div class="pt-10  hover:duration-100  whitespace-normal">
+            <a href="/features-elaboration#{{$link}}" class="flex gap-x-2  items-center lg:w-[110px] w-full hover:border-b-2 border-[#FFDE17]" >
                 <span class="">Read More</span>
                 <img src="/assets/icons/right-arrow.svg" alt="" class="w-4 h-4">
             </a>

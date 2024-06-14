@@ -1,10 +1,7 @@
 <?php
 
-use App\Livewire\Header;
+use App\Livewire\FeaturesElaboration\Features;
 use App\Livewire\Home\Home;
-use App\Livewire\LandingCard\FeaturseCard;
-use App\Livewire\LandingPage\FeaturseHome;
-use App\Livewire\Layouts\Header as LayoutsHeader;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,7 +21,7 @@ Route::get('/', function () {
 
 Route::get('/', Home::class);
 
-Route::get('/features', FeaturseHome::class);
+Route::get('/features-elaboration', Features::class)->name('features.elaboration');
 
 
 // Route::get('/card', FeaturseCard::class);

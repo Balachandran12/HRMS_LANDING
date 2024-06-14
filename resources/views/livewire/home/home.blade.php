@@ -71,8 +71,10 @@
         </div>
 
 
-        <div class=" lg:flex justify-center pt-12 hidden ">
-            <x-button size="lg">View More Features</x-button>
+        <div class=" flex justify-center mt-12">
+            <a href="{{ route('features.elaboration') }}">
+                <x-button size="lg">View More Features</x-button>
+            </a>
         </div>
     </div>
 
